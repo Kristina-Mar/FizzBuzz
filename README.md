@@ -1,1 +1,1 @@
-# FizzBuzz
+# FizzBuzz Writes numbers from 1 to 100 - if the number is divisible by 3, the console shows Fizz, if it's divisible by 5, the console shows Buzz, if it's divisible by 3 and 5, the console shows FizzBuzz.
