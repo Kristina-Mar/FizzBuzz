@@ -4,10 +4,9 @@
     {
         static void Main(string[] args)
         {
-
             for (int i = 1; i < 101; i++)
             {
-                if (CheckNumber.IsDivisibleBy3And5(i))
+                if (CheckNumber.IsDivisibleBy3(i) && CheckNumber.IsDivisibleBy5(i))
                 {
                     Console.WriteLine("FizzBuzz");
                 }

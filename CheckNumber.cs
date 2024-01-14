@@ -16,9 +16,5 @@ namespace FizzBuzz
         {
             return number % 5 == 0;
         }
-        public static bool IsDivisibleBy3And5(int number)
-        {
-            return IsDivisibleBy3(number) && IsDivisibleBy5(number);
-        }
     }
 }
