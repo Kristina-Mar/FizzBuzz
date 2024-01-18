@@ -6,22 +6,9 @@
         {
             for (int i = 1; i < 101; i++)
             {
-                if (CheckNumber.IsDivisibleBy3(i) && CheckNumber.IsDivisibleBy5(i))
-                {
-                    Console.WriteLine("FizzBuzz");
-                }
-                else if (CheckNumber.IsDivisibleBy3(i))
-                {
-                    Console.WriteLine("Fizz");
-                }
-                else if (CheckNumber.IsDivisibleBy5(i))
-                {
-                    Console.WriteLine("Buzz");
-                }
-                else
-                {
-                    Console.WriteLine(i);
-                }
+                CheckNumber.CheckDivisibility(i);
+                Console.WriteLine(CheckNumber.Line);
+                CheckNumber.Line = string.Empty;
             }
         }
     }
