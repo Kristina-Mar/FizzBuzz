@@ -8,7 +8,6 @@
             {
                 CheckNumber.CheckDivisibility(i);
                 Console.WriteLine(CheckNumber.Line);
-                CheckNumber.Line = string.Empty;
             }
         }
     }

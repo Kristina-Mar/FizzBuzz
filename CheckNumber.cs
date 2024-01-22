@@ -12,6 +12,7 @@ namespace FizzBuzz
         public static string Line = string.Empty; // line that appears in the console
         public static string CheckDivisibility(int number)
         {
+            Line = string.Empty;
             if (number % 3 == 0)
             {
                 Line = "Fizz";
